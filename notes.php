@@ -323,7 +323,7 @@
 // password_verify($password, $f['password']).....FUNCTION TO MATCH THE PASSWORD ENTERED BY USER WITH ITS HASH STORED IN THE DATABASE
 // $f=mysqli_fetch_assoc($value of the res which has parameters $conn and $queryrun),it is used in while loop.
 // $f['password'] is the array of passwords in the database.
-// you can use echo multiple times inside php and embed html(bootstrap) in it.
+// you can use echo multiple times inside php and embed html(bootstrap) in it without any issue.
 
 
 
