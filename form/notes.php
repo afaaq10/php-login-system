@@ -337,17 +337,9 @@ $database='users';
 $conn=mysqli_connect($server_name,$user_name,$password,$database);
 if (!$conn) {
    die('could not connect');
-} else {
-    echo 'Connected successfully <br>';
-}
-
+} 
 
   
-
-
-
-?>
-
 
 
 
