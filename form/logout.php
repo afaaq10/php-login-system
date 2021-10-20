@@ -4,4 +4,3 @@ session_destroy();
 echo 'Logging you out...';
 header("Location:final.php");
 
-
