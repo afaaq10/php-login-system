@@ -1,7 +1,7 @@
 <?php
 
 
-// Notes in comments.....................
+// php Notes in comments.....................
 
 
 // functions in php
@@ -329,7 +329,7 @@
 
 
 
-
+// connecting to a database
 $server_name='localhost';
 $user_name='root';
 $password='';
@@ -351,7 +351,7 @@ if (!$conn) {
 
 
 
-// Objected oriented programming with examples................
+// Objected oriented programming in php with examples................................
 
 
 //  Basic definiiton of class, method, objects and properties
@@ -387,7 +387,7 @@ if (!$conn) {
 
 
 
-// constructor
+// constructor.......................................
 
 // a constructor is a function which gets called when an object is created(instantiated).
 // The arg inside constructor can be anything but the value with the this keyword(fame here)
@@ -420,7 +420,8 @@ if (!$conn) {
 
 
 
-// destructor
+// destructor.............................................
+
 // gets called when the php script ends i.e objects get destroyed.
 // class cons{
 //     public $name;
@@ -554,7 +555,9 @@ if (!$conn) {
 
 
 
-// protected....if you define a private fn in a class and then you use inheritance, 
+// protected..........................
+
+// if you define a private fn in a class and then you use inheritance, 
 // you won't be able to use this private fn inside the extended class. In order to use
 //  this private fn use protected keyword with the function which was declared as private.
 
@@ -584,3 +587,59 @@ if (!$conn) {
     
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Front end development notes.....................................
+
+
+// html notes.....
+// <meta name="keyword" content="python,name">...if anyone searches these keywords he will likely see my website.................................
+// <meta name="robot" content="INDEX,FOLLOW">
+
+
+// <label for="name">Name</label>
+// <input type="text" id="name">.....on clicking Name input name tag gets selected. Here
+//  in for the value is same as id in input tag
+// lable    tag can also be used
+// html entities.... ...&lt $gt(add < and > in the browser) &nbsp.(adds space it means non breakable space) &copy(adds @)
+// semantic tags...tags which have meaning e.g header,navigation,section,article,aside,footer
+
+
+
+
+
+
+
+
+
+
+// css notes
+
+
+// write (!important) against the property of an element in css to get it the top most preferrnce
+
+// You can use google fonts
+
+// background-position: top right;....used to give the position to an image on x and y axis in css
+                    // #p{
+                    //     width:20px;
+                    //     height:10px;
+                    //     border:solid 2px red;
+                    //     background-position:top right;
+                    // }
+// padding 2px 5px ...first value represents top and bottom, and second value is for right and left.
+// use width: property with margin:auto; property 
+// when you float an element it gets overflowed from its parent so use in the parent overflow:auto property; 
