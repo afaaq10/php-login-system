@@ -588,6 +588,25 @@ if (!$conn) {
 
 
 
+// create first laravel file ............
+
+// php artisan server.....run this command in cmd to start the server, also you must be in the working directory(e.g blog in my case)
+
+// open   resources folder--> views  and then create a new file there e.g (ab.blade.php)...blade is important
+// Then open routes folder and then web.php, inside  web.php change the name in the return view 
+
+
+
+// Making a controller................
+
+//  1 use cmd and type php artisan make:controller nameofcontroller
+//  2 go to app then Http then the file with the name nameofcontroller... you can write fn as well and call it in routes folder in the file web.php
+//  3 go to routes then web.php and then write     use App\Http\controllers\nameofcontroller at the top
+// 4 write Route:get('anypathname',[nameofcontroller::class, 'functionname']);
+// open browser at the url type anypathname
+// You can addd stuff in the url by adding Route:get('anypathname/{id}',[nameofcontroller::class, 'functionname']);
+// pass this id in the parameter of the function as $id and set return as return $id
+
 
 
 
@@ -642,4 +661,99 @@ if (!$conn) {
                     // }
 // padding 2px 5px ...first value represents top and bottom, and second value is for right and left.
 // use width: property with margin:auto; property 
-// when you float an element it gets overflowed from its parent so use in the parent overflow:auto property; 
+// when you float an element it gets overflowed from its parent so use in the parent... overflow:auto.. property; 
+
+
+// display:block (elemnt will take the width of entire viewport)   you can use width property with it. Also use margin: auto for centering the block.
+// display:inline (elemnt will take only the required width)...you cannoot use width property here
+// inline-block ...(if you want the element to be inline as well as able to set its width ) you can use width property here
+
+// position:absolute.....gives position realtive to parent element without leaving a gap. (use top,bottom,right and left).
+// position:realtive.....gives  position realtive to its original position leaving a gap on the viewport.
+// position:sticky.... keeps the content sticked at the top of the screen.
+// position:fixed....keeps the position fixed anywhere on the screen (use top,bottom,right and left).
+// visibility:none.....space will be there and elemet will dissapear
+// display:none.....element and its space will disappear.
+// z-index:5 stacks elements on top of each other. works with all positions except the default which is static
+
+?>
+
+
+
+<!-- flex box tutorial with flex properties -->
+
+<!-- .container {
+			height: 544px;
+			width: 100%;
+			border: 2px solid black;
+			display: flex; -->
+<!-- /* Initialize the container as a flex box */
+            
+
+            /* Flex properties for a flex container */
+            
+
+			/* flex-direction: row; (Default value of flex-direction is row) */
+			/* flex-direction: column;
+            flex-direction: row-reverse;
+            flex-direction: column-reverse; */
+			/* flex-wrap: wrap; (Default value of flex-direction is no-wrap) */
+			/* flex-wrap: wrap-reverse; */
+			/* This is a shorthand for flex-direction: and flex-wrap: ;; */
+            /* flex-flow: row-reverse wrap; */
+            
+            /* justify-content will justify the content in horizontal direction */
+            
+			/* justify-content: center; */
+			/* justify-content: space-between; */
+			/* justify-content: space-evenly; */
+            /* justify-content: space-around; */
+            
+            /* justify-content will justify the content in vertical direction */
+            
+			/* align-items: center; */
+			/* align-items: flex-end; */
+			/* align-items: flex-start; */
+			/* align-items: stretch; */ -->
+}
+
+<!-- .item {
+			width: 200px;
+			height: 200px;
+			background-color: tomato;
+			border: 2px solid green;
+			margin: 10px;
+			padding: 3px;
+		} -->
+
+<!-- #item-1 {
+			/* Flex properties for a flex item */
+			/* Higher the order, later it shows up in the container */
+			/* order: 2; */
+			/* flex-grow: 2;
+            flex-shrink: 2; */
+		} -->
+
+<!-- #item-2 {
+			/* flex-grow: 3;
+            flex-shrink: 3 ; */
+			flex-basis: 160px;
+			/* when flex-direction is set to row flex-basis: will control width */
+			/* when flex-direction is set to column flex-basis: will control height */
+		} -->
+
+<!-- #item-3 {
+			/* flex: 2 2 230px; */
+			align-self: flex-start;
+			align-self: flex-end;
+			align-self: center;
+
+		} -->
+
+<!-- <div class="container">
+		<div class="item" id="item-1">First Box</div>
+		<div class="item" id="item-2">Second Box</div>
+		<div class="item" id="item-3">Third Box</div>
+		<!-- <div class="item" id="item-4">Fourth Box</div>
+        <div class="item" id="item-5">Fifth Box</div>
+        <div class="item" id="item-6">Sixth Box</div> -->
