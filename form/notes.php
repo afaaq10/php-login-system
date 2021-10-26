@@ -709,7 +709,7 @@ if (!$conn) {
 			/* justify-content: space-evenly; */
             /* justify-content: space-around; */
             
-            /* justify-content will justify the content in vertical direction */
+            /* align-items will align the content in vertical direction */
             
 			/* align-items: center; */
 			/* align-items: flex-end; */
@@ -757,3 +757,187 @@ if (!$conn) {
 		<!-- <div class="item" id="item-4">Fourth Box</div>
         <div class="item" id="item-5">Fifth Box</div>
         <div class="item" id="item-6">Sixth Box</div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- // selectors in css -->
+
+
+<!-- /* if p is contained by any li which is contained by div */
+    /* div li p{
+        color: yellow;
+        background-color: green;
+        font-weight: bold;
+    } */
+
+    /* if p is right inside div then this CSS will be applied */
+    /* div > p{
+        color: yellow;
+        background-color: green;
+        font-weight: bold;
+    } */
+
+    /* if p is right after div i.e p is the next sibling of div*/
+    /* div + p{
+        color: white;
+        background-color: rgb(238, 137, 137);
+    } */ -->
+
+<!-- example is given below -->
+
+<!-- // </style>
+// <body>
+//     <h1>This is more on selectors</h1>
+//     <div class="container">
+//         <div class="row">
+//             <ul>
+//                 <li class="item"><p> this is another paragraph inside li</p></li> 
+//                 <li>this will not get affected</li>
+//                 <p>this is a para inside ul</p>
+//             </ul>
+//             <p>This is a paragraph</p>
+//         </div>
+//         <p>This is another paragraph</p>
+//     </div>
+//     <p>this is outermost paragraph</p>
+// </body>
+// </html> -->
+
+
+<!-- // header::before{
+    content:"" keep content as null
+    top      keep it 0
+    bottom   0 value
+    background:url()....an image here
+    set the opacity to 0.5
+    z-index:-1;
+    
+    do all these properties in header and you will get an image with text over it
+
+} -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- // box shadow property with example given below -->
+
+<!-- .container{
+    display: flex;
+}
+.card{
+    padding: 23px 12px;
+    margin: 23px 12px;
+    /* border: 2px solid red; */
+    background-color: burlywood;
+    /* box-shadow: offset-x offset-y color; */
+    /* box-shadow: offset-x offset-y blur-radius color; */
+    /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+
+    /* box-shadow: 10px 13px green; */
+    /* box-shadow: -10px -13px green; */
+    /* box-shadow: 7px 5px 10px green;
+    box-shadow: -7px -5px 10px green; */
+    /* box-shadow: -7px -5px 10px 34px green; */
+    /* box-shadow: -7px -5px 10px 34px rgba(71, 172, 172, 0.5); */
+    box-shadow: inset 3px 5px green;
+
+    box-shadow: 3px 5px green, 4px 6px red;
+}
+.card h2{
+    /* text-shadow: 3px 4px red; */
+    /* text-shadow: 3px 2px 2px white; */
+    text-shadow: -3px -2px 2px white;
+}
+</style>
+<body>
+    <div class="container">
+        <div class="card" id="card-1">
+           <h2>This is C++ Course</h2>
+           <p>I have started C++ course which does not mean that we will stop this course. We will continue this course to completion. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque laudantium, doloremque enim repellat impedit autem nostrum facilis odio omnis optio voluptates beatae mollitia temporibus voluptas consequuntur harum animi totam molestiae labore architecto ratione qui!</p>
+        </div>
+      -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- // animations  -->
+
+<!-- // .box {   .box is a class in a div 
+        //     background: greenyellow;
+        //     border: 2px solid red;
+        //     position: relative;
+        //     width: 250px;
+        //     height: 250px;
+        //     animation-name: Afaaq;
+        //     animation-duration: 5s;
+        //     animation-timing-function: ease-in-out;
+        //     /* animation-iteration-count: 4; */
+        //     /* animation-delay: 1s;
+        //     animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275); */
+        // } -->
+
+<!-- // @keyframes Afaaq {
+
+
+
+        //     /* from {
+        //         width: 250px;
+        //     }
+        //     to {
+        //         width: 700px;
+        //     } */
+        //     0% {
+        //         top: 0px;
+        //         left: 0%;
+        //     }
+        //     25% {
+        //         top: 0px;
+        //         left: 200px;
+        //     }
+
+        //     50% {
+        //         left: 200px;
+        //         top: 300px;
+        //     }
+        //     75% {
+        //         top: 300px;
+        //         left: 0px;
+        //     }
+        //     100% {
+        //         top: 0px;
+        //         left: 0px;
+        //     }
+        // } -->
