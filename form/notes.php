@@ -944,3 +944,86 @@ if (!$conn) {
         //         left: 0px;
         //     }
         // } -->
+
+
+
+
+<!-- Grid in csss -->
+
+
+<!-- <style>
+        .container {
+            display: grid;.......Make your contaoner a grid
+            grid-gap: 2rem;.......gap between each box is twice the parent
+            grid-template-areas: 'header header header' 'section section aside' 'footer footer footer';
+        }
+
+        #item {
+            background: whitesmoke;
+        }
+
+        .header {
+            grid-area: header;.....The property we use in the grid for each section
+
+        }
+
+        .section {
+            grid-area: section;.....The property we use in the grid for each section
+        }
+
+        .aside {
+            grid-area: aside;.......The property we use in the grid for each section
+        }
+
+        .footer {
+            grid-area: footer;......The property we use in the grid for each section
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div id="item" class="header">
+            Home Contact About
+        </div>
+
+
+        <div id="item" class="section">
+            <p>Libusdam minima ducimus blanditiis suscipit voluptatibus, asperiores eos numquam
+                se?</p>
+        </div>
+
+
+        <div id="item" class="aside">
+            <p>quas recusandae, possimus, pariatur modi. Perferendis suscipit aliquam,
+                .</p>
+
+        </div>
+
+
+        <div class="footer" id="item">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore neque quam laborum asperiores aperiam corporis, temporibus
+            am
+        </div>
+    </div>
+</body> -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- Making a transparent form login form in html and css -->
+
+<!-- First login to fontawesome..com and take the code in the head of your html to get good icons
+      use fontawesomecheatsheet.com to get the icons
+      use background:none property to make any box e.g signup form look transparent
+
+-->
