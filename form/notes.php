@@ -919,7 +919,10 @@ if (!$conn) {
         //     to {
         //         width: 700px;
         //     } */
-        //     0% {
+
+
+        <!-- either use above one or use this one -->
+<!-- //     0% {
         //         top: 0px;
         //         left: 0%;
         //     }
