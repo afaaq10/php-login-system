@@ -1027,3 +1027,21 @@ if (!$conn) {
       use background:none property to make any box e.g signup form look transparent
 
 -->
+
+
+
+
+
+<!-- // React notes
+
+ Redux.. its is an extern al library which is used to maintain the state.
+ As the javascript of the program grows it becomews difficult to maintain the state if the components so we use Redux
+ 
+ Different terms in Redux->  Action initiate(get a bat and a ball), UI(request from a kid), Dispatched(e,g by whatsapp) Reducer(which performs the actual work of getting bat and ball)
+ 
+ 
+
+
+
+
+ -->
